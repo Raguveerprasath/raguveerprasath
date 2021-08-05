@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<body>
+  <h1><b>  STUDENT DETAILS FORM </b></h1><br><br>
+<title> STUDENT DETAILS</title>
+<form>
+<b>  NAME (IN CAPITAL) :</b><br>
+  <br>
+  <input type="text" name="NAME"><br><br>
+  <b>EMAIL ID:</b> <br>
+  <br>
+  <input type="text" name="EMAIL_ID"><br><br>
+<b>  SELECT GENDER :</b>
+  <br><br>
+  <input type="radio" name= "GENDER" id="Male">
+  <label for="Male">Male</label><br><br>
+  <input type="radio" name=""GENDER" id="Female">
+  <label for="Female">Female</label>
+  <br>
+  <br>
+ <b>AGE :</b><br>
+ <br>
+ <input type="number" name="AGE_" value="AGE">
+ <br>
+ <br>
+<b> BOARD OF EDUCATION : </b><br> <br>
+<input type="checkbox" name="BOARD_OF_EDUCATION"id="CBSE">
+<label for="CBSE">CBSE</label>
+<br><br>
+<input type="checkbox" name="BOARD_OF_EDUCATION"id="STATE BOARD">
+<label for="STATE BOARD">STATE BOARD</label><br><br>
+<input type="checkbox" name="BOARD_OF_EDUCATION" id="ICSE">
+<label for="ICSE">ICSE</label><br><br>
+<b> 12TH CORE SUBJECTS MARKS : </b><br>
+<br>
+MATHS : <br>
+<input type="number" name="SUBJECTS" id="MATHS"><br><br>
+PHYSICS : <br>
+<input type="number" name="SUBJECTS" id="PHYSICS"><br><br>
+CHEMISTRY : <br>
+<input type="number" name="SUBJECTS" id="CHEMISTRY"><br><br>
+<br>
+<b> TOTAL MARKS OBTAINED =    <input type="number" name="SUBJECTS" value="MARKS"></b><br>
+ <br> <br> <br>
+ UPLOAD 12TH MARKSHEET: <input type="file" name="fileupload" value="file"><br>
+ <br>
+<br><br><br><br><br>
+<input type="submit" name="Submit" value="Submit">
+<input type="reset" name="Reset" value="Reset">
+</form>
+</body>
+</html>
